@@ -6,7 +6,7 @@ import java.rmi.server.UnicastRemoteObject;
 public class MyCalculator extends UnicastRemoteObject implements Calculator {
 
 
-    protected MyCalculator() throws RemoteException {
+    public MyCalculator() throws RemoteException {
         super();
     }
 
